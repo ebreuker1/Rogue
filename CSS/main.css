@@ -1,0 +1,123 @@
+/****Grid****/
+.container {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  }
+/****Header****/
+#about #menu #locations #gallery #reviews #content {
+  height: 10px;
+
+}
+
+header {
+  padding-right: 30px;
+  padding-left: 20px;
+  padding-bottom: 70px;
+  margin: 0 auto;
+  width: 100%;
+  height: 20px;
+  display: inline-block;
+    }
+header h1 {
+  margin: 0 auto;
+  font-size: 32px;
+  padding: 10px;
+  float: left;
+      }
+header span{
+  color: #77a466;
+}
+header nav {
+  float: right;
+  padding-left: 200px;
+  padding-bottom: 10px;
+      }
+header nav ul li  {
+  list-style-type: none;
+  text-transform: uppercase;
+  padding: 10px;
+  display: inline-block;
+
+    }
+header a {
+  color: #77a466;
+}
+
+/****Img and Para****/
+#welcome {
+  margin: 0 auto;
+  padding: 20px;
+
+}
+#welcome #beans img {
+  padding-left: 250px;
+  width: 100%;
+
+}
+#welcome h2 {
+  color: #77a466;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 10px auto;
+}
+
+/****Specials****/
+.specials, .review, .contact {
+  width: 30%;
+  height: 210px;
+  padding: 10px;
+}
+
+.specials  {
+  text-align: left;
+  float: left;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  padding-left: 20px;
+  }
+.specials ul li a{
+  color: #77a466;
+  line-height: 50px;
+  list-style-type: none;
+    }
+/****review****/
+.review {
+  text-align: left;
+  float: left;
+  line-height: 30px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  }
+/****Contact****/
+.contact {
+  text-align: left;
+  float: left;
+  line-height: 30px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  }
+/****Powered by****/
+footer {
+  width: 100%;
+  height: auto;
+  margin: 20px;;
+
+}
+#power {
+  text-align: center;
+  width: 100%;
+  clear:both;
+}
+footer h2{
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  clear:both;
+}
+footer span{
+  color: #77a466;
+  font-family: 'Wisdom Script';
+    src: url('../fonts/wisdom-script.otf') format('opentype');
+}
